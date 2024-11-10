@@ -1,0 +1,672 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\info 
+{\title {\comment Documenta\'E7\'E3o de algumas atividades  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}Documenta\'E7\'E3o de algumas atividades}
+{\comment Gerado por doxygen 1.12.0.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Documenta\'E7\'E3o de algumas atividades}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Arquivos\par \pard\plain 
+{\tc \v \'CDndice dos Arquivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Arquivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os arquivos e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/roger/Documents/Quickly/{\b Anti-confus\'E3o de pre\'E7o.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/roger/Documents/Quickly/{\b soma em partes.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/roger/Documents/Quickly/{\b Todas as folhas de pagamento.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Arquivos{\tc \v Arquivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/roger/Documents/Quickly/Anti-confus\'E3o de pre\'E7o.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/roger/Documents/Quickly/Anti-confus\'E3o de pre\'E7o.c}
+{\xe \v C:/Users/roger/Documents/Quickly/Anti-confus\'E3o de pre\'E7o.c}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <stdio.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:Anti-confus\'E3o de pre\'E7o.c}
+{\xe \v Anti-confus\'E3o de pre\'E7o.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3 \{\par
+4   printf({\cf22 "Qual o produto?\\n"});\par
+5   {\cf18 char} produto[20];\par
+6   scanf({\cf22 "%s"}, produto);\par
+7   printf({\cf22 "Em que medida o produto est\'E1 sendo medido\\n"});\par
+8   {\cf18 char} medida[20];\par
+9   scanf({\cf22 "%s"},medida);\par
+10   printf({\cf22 "Digite o pre\'E7o\\n"});\par
+11   {\cf18 float} preco=0;\par
+12   scanf({\cf22 "%f"},&preco);\par
+13   printf({\cf22 "Digite quanto do produto esta sendo vendido na Unidade de medida escolhida\\n"});\par
+14   {\cf18 float} quantidade=0;\par
+15   scanf({\cf22 "%f"},&quantidade);\par
+16   {\cf18 float} valor=preco/quantidade;\par
+17   printf({\cf22 "O valor do %s \'E9 de %.2f reais/%s"}, produto, valor,medida);\par
+18   {\cf19 return} 0;\par
+19 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/roger/Documents/Quickly/soma em partes.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/roger/Documents/Quickly/soma em partes.c}
+{\xe \v C:/Users/roger/Documents/Quickly/soma em partes.c}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <stdio.h>}\par
+{\f2 #include <limits.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:soma em partes.c}
+{\xe \v soma em partes.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5 \{\par
+6   printf( {\cf22 "inteiro m\'E1ximo : %d\\n"}, (2*2*2*2*2*2*2*2)-1); {\cf20 //considerando um int de 8 bits **sem sinal**, contando o 0}\par
+7   printf( {\cf22 "inteiro m\'EDnimo : 0\\n"}); {\cf20 //considerando um int de 8 bits **sem sinal**}\par
+8   {\cf18 unsigned} {\cf18 int} soma1;\par
+9   {\cf18 unsigned} {\cf18 int} soma;\par
+10   {\cf18 unsigned} {\cf18 int} HR = 250;\par
+11   {\cf18 unsigned} {\cf18 int} AS = 105;\par
+12   printf( {\cf22 "Variavel 1 : %d\\n"}, HR);\par
+13   printf( {\cf22 "Variavel 1 : %d\\n"}, AS);\par
+14   soma1 = HR + AS; {\cf20 //exemplo de soma que ultrapassa o limite}\par
+15   {\cf20 //defini\'E7\'E3o do m\'E1ximo}\par
+16   {\cf19 if}(soma1 >255)\par
+17     printf({\cf22 "Overflow(se fizesse normalmente)\\n"});\par
+18   {\cf19 else}\{\par
+19     printf({\cf22 "A soma dos dois n\'FAmeros \'E9 igual a: %d\\n"}, soma1); \par
+20   \}\par
+21   {\cf18 float} intermediarioHR = HR/10.0; {\cf20 //deixando o n\'FAmero menor}\par
+22   {\cf18 float} intermediarioAS = AS/10.0; {\cf20 //deixando o n\'FAmero menor}\par
+23   {\cf18 unsigned} {\cf18 int} HRH = intermediarioHR; {\cf20 //pegando a parte inteira}\par
+24   {\cf18 unsigned} {\cf18 int} ASA = intermediarioAS; {\cf20 //pegando a parte inteira}\par
+25   soma = intermediarioHR+intermediarioAS; {\cf20 //soma dos n\'FAmeros da frente}\par
+26   {\cf18 unsigned} {\cf18 int} ajudasomaHR = (intermediarioHR - HRH)*10; {\cf20 //pegando a parte decimal para int}\par
+27   {\cf18 unsigned} {\cf18 int} ajudasomaAS = (intermediarioAS - ASA)*10; {\cf20 //pegando a parte decimal para int}\par
+28   {\cf18 unsigned} {\cf18 int} somaatras = ajudasomaHR + ajudasomaAS; {\cf20 //soma dos n\'FAmeros de tr\'E1s}\par
+29   {\cf20 //assim o n\'FAmero esta guardado dividido em duas partes soma e somaatras}\par
+30   {\cf19 if}(soma >255)\par
+31     printf({\cf22 "Overflow\\n"});\par
+32   {\cf19 else} {\cf19 if}(somaatras > 255)\par
+33     printf({\cf22 "Overflow\\n"});\par
+34   {\cf19 else}\par
+35   \{\par
+36     {\cf19 if}(somaatras>9){\cf20 //Para caso os numeros de tras somassem 10 ou mais}\par
+37     \{\par
+38       soma++;\par
+39       somaatras = somaatras - 10;\par
+40     \}\par
+41     printf({\cf22 "A soma dos dois n\'FAmeros \'E9 igual a: %d%d\\n"}, soma, somaatras); {\cf20 //soma armazena o resultado dos 2 primeiros digitos e somaatras armazena o ultimo, dessa forma nao estoura o limite}\par
+42   \}\par
+43   {\cf19 return} 0;\par
+44   \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo C:/Users/roger/Documents/Quickly/Todas as folhas de pagamento.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/roger/Documents/Quickly/Todas as folhas de pagamento.c}
+{\xe \v C:/Users/roger/Documents/Quickly/Todas as folhas de pagamento.c}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <stdio.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b publico} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b clt} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b empresa} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v clt\:Todas as folhas de pagamento.c}
+{\xe \v Todas as folhas de pagamento.c\:clt}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int clt ()}}
+\par
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 76 \{\par
+77 printf({\cf22 "Digite seu salario base\\n"});\par
+78   {\cf18 float} Base = 0.0;\par
+79   scanf({\cf22 "%f"}, &Base);\par
+80   {\cf19 if} (Base <= 1412.00)\par
+81   \{\par
+82     printf({\cf22 "Valor abaixo do minimo"});\par
+83   \}\par
+84   {\cf19 else}\par
+85   \{\par
+86   {\cf18 float} alimentacao = 0.0;\par
+87   printf({\cf22 "Digite o valor do auxilio alimentacao\\n"});\par
+88   scanf({\cf22 "%f"}, &alimentacao);\par
+89     {\cf18 float} transporte = 0.0;\par
+90   printf({\cf22 "Digite o valor do auxilio transporte\\n"});\par
+91   scanf({\cf22 "%f"}, &transporte);\par
+92     {\cf18 float} estudo = 0.0;\par
+93   printf({\cf22 "Digite o valor do auxilio estudo\\n"});\par
+94   scanf({\cf22 "%f"}, &estudo);\par
+95     {\cf18 float} creche = 0.0;\par
+96     printf({\cf22 "Digite o valor do auxilio creche\\n"});\par
+97     scanf({\cf22 "%f"}, &creche);\par
+98     {\cf18 float} saude = 0.0;\par
+99     printf({\cf22 "Digite o valor do auxilio saude\\n"});\par
+100     scanf({\cf22 "%f"}, &saude);\par
+101     {\cf18 float} segurovida = 0.0;\par
+102     printf({\cf22 "Digite o valor do seguro de vida pago\\n"});\par
+103     scanf({\cf22 "%f"}, &segurovida);\par
+104   {\cf18 int} filhos = 0;\par
+105   printf({\cf22 "Voc\'EA tem quantos filhos de at\'E9 14 anos ou dependente?\\n"});\par
+106   scanf({\cf22 "%d"}, &filhos);\par
+107   printf({\cf22 "Digite o quanto voce ganha por hora\\n"});\par
+108   {\cf18 int} Porhora = 0;\par
+109   scanf({\cf22 "%d"}, &Porhora);\par
+110   printf({\cf22 "Digite quantas horas extras voc\'EA trabalhou esse m\'EAs\\n"});\par
+111   {\cf18 int} extra = 0;\par
+112   scanf({\cf22 "%d"}, &extra);\par
+113     printf({\cf22 "No m\'EDnimo, as horas extras s\'E3o pagas a 1.5 vezes o valor da hora normal, se a taxa for a mesma, digite 1.5, se for maior, digite o valor da taxa no mesmo modelo\\n"});\par
+114     {\cf18 float} taxahora = 0.0;\par
+115     scanf({\cf22 "%f"}, &taxahora);\par
+116     {\cf19 if} (taxahora < 1.5)\par
+117     \{\par
+118       printf({\cf22 "Valor abaixo do minimo"});\par
+119     \}\par
+120     {\cf19 else}\par
+121     \{\par
+122       {\cf18 float} impostoderenda = 0.0;\par
+123   {\cf19 if} (Base < 2259.2)\par
+124   \{\par
+125   impostoderenda = 0;\par
+126   \}\par
+127   {\cf19 else} {\cf19 if} (Base < 2826.65)\{\par
+128   impostoderenda = 7.5/100;\par
+129   \}\par
+130   {\cf19 else} {\cf19 if} (Base < 3751.06)\{\par
+131   impostoderenda = 15.0/100;\par
+132   \}\par
+133   {\cf19 else} {\cf19 if} (Base < 4664.68)\{\par
+134   impostoderenda = 22.5/100;\par
+135   \}\par
+136   {\cf19 else} \{\par
+137   impostoderenda = 27.5/100;\par
+138   \}\par
+139       {\cf18 float} inss = 0.0;\par
+140   {\cf19 if} (Base < 1412.00)\par
+141   \{\par
+142   inss = 75.0/1000;\par
+143   \}\par
+144   {\cf19 else} {\cf19 if} (Base < 2666.68)\{\par
+145   inss = 9.0/100;\par
+146   \}\par
+147   {\cf19 else} {\cf19 if} (Base < 4000.03)\{\par
+148   inss = 12.0/100;\par
+149   \}\par
+150   {\cf19 else} \{\par
+151   inss = 14.0/100;\par
+152   \}\par
+153       {\cf18 float} sindical = 0.0;\par
+154     printf({\cf22 "Voc\'EA autoriza o desconto da contribuicao sindical?Escreva 1 para sim, 2 para nao\\n"});\par
+155     {\cf18 int} K = 0;\par
+156       scanf({\cf22 "%d"}, &K);\par
+157       {\cf19 if}(K == 1)\par
+158     \{\par
+159       sindical = 1.0/30*Base;\par
+160     \}\par
+161     {\cf19 else}\par
+162     \{\par
+163       sindical = 0.0;\par
+164     \}\par
+165   {\cf18 float} salariobruto = Base + 62.04*filhos + Porhora*extra*taxahora + alimentacao + transporte + estudo + creche + saude + segurovida;\par
+166   {\cf18 float} Baseextra = Porhora*extra*taxahora + Base;\par
+167   {\cf18 float} descontos = Baseextra*impostoderenda + Baseextra*inss;\par
+168   {\cf18 float} salarioliquido = salariobruto - descontos;\par
+169    printf({\cf22 "__________________________________________________________________________________\\n"});\par
+170   printf({\cf22 "Seu salario bruto \'E9: %f\\n"}, salariobruto);\par
+171   printf({\cf22 "Seu salario liquido \'E9 %f:\\n"}, salarioliquido);\par
+172   printf({\cf22 "O total de desconto foi: %f e "}, descontos);\par
+173   printf({\cf22 "Ao final do ano, voce pagara contribuicao sindical no valor de %f\\n"}, sindical);\par
+174       \}\par
+175   \}\par
+176   {\cf19 return} 0;\par
+177 \}\par
+}
+}
+{\xe \v empresa\:Todas as folhas de pagamento.c}
+{\xe \v Todas as folhas de pagamento.c\:empresa}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int empresa ()}}
+\par
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 181 \{\par
+182   printf({\cf22 "digite o salario base: "});\par
+183   {\cf18 float} base = 0.0;\par
+184   scanf({\cf22 "%f"}, &base);\par
+185   {\cf19 if} (base < 1412.00)\par
+186   \{\par
+187     printf({\cf22 "valor abaixo do minimo\\n"});\par
+188     empresa();\par
+189   \}\par
+190       {\cf18 float} inss = 0.0;\par
+191   {\cf19 if} (base < 1412.00)\par
+192   \{\par
+193   inss = 75.0/1000;\par
+194   \}\par
+195   {\cf19 else} {\cf19 if} (base < 2666.68)\{\par
+196   inss = 9.0/100;\par
+197   \}\par
+198   {\cf19 else} {\cf19 if} (base < 4000.03)\{\par
+199   inss = 12.0/100;\par
+200   \}\par
+201   {\cf19 else} \{\par
+202   inss = 14.0/100;\par
+203   \}\par
+204 \par
+205 printf({\cf22 "\\ndigite a seguir o valor do seguro de vida: "});\par
+206   {\cf18 float} seguro = 0.0;\par
+207   scanf({\cf22 "%f"}, &seguro);\par
+208 printf({\cf22 "\\ndigite a seguir o valor do plano de saude: "});\par
+209   {\cf18 float} plano = 0.0;\par
+210   scanf({\cf22 "%f"}, &plano);\par
+211 printf({\cf22 "\\ndigite a seguir a soma dos aux\'EDlios, vales e beneficios corporativos(sem contar os anteriores): "});\par
+212 {\cf18 float} vales = 0.0;\par
+213 scanf({\cf22 "%f"}, &vales);\par
+214 printf({\cf22 "\\ndigite a seguir as horas extras pagas: "});\par
+215 {\cf18 float} extra = 0.0;\par
+216   scanf({\cf22 "%f"}, &extra);\par
+217   printf({\cf22 "\\ndigite o tempo de servi\'E7o em anos do funcion\'E1rio: "});\par
+218   {\cf18 int} tempo = 0;\par
+219   scanf({\cf22 "%i"}, &tempo);\par
+220       {\cf18 float} extratempo = 0;\par
+221   {\cf19 if} (tempo < 5)\par
+222     \{\par
+223       extratempo = (tempo/100.0) * base;\par
+224     \}\par
+225     {\cf19 else}\par
+226     \{\par
+227       extratempo = (5/100.0) * base;\par
+228     \}\par
+229   {\cf18 float} fgts = 0.08;\par
+230   {\cf18 float} fgtsdemissao = 0.04;\par
+231 {\cf18 float} brutus = base+vales+plano+seguro+extra+extratempo;\par
+232 {\cf18 float} sat = 0.03;\par
+233 {\cf18 float} ratfap = 0.04;\par
+234 {\cf18 float} ferias = brutus/12 + (brutus/3)/12;\par
+235 {\cf18 float} sistemaS = 0.033;\par
+236 {\cf18 float} deztrez = brutus/12;\par
+237 {\cf18 float} despesas = brutus*1.0+deztrez+ferias+brutus*inss*fgtsdemissao*sistemaS*sat*ratfap*fgts;\par
+238 printf({\cf22 "\\nO valor total de despesas com um funcion\'E1rio, incluindo as reservas para despesas futuras, \'E9: %f"}, despesas);\par
+239 {\cf19 return} 0;\par
+240 \}\par
+}
+}
+{\xe \v main\:Todas as folhas de pagamento.c}
+{\xe \v Todas as folhas de pagamento.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 261 \{\par
+262   printf({\cf22 "Digite 1 para despesas de uma empresa, 2 para empregado clt e 3 para empregado publico\\n"});\par
+263   {\cf18 int} x = 0;\par
+264   scanf({\cf22 "%d"}, &x);\par
+265   {\cf19 if}(x == 1)\par
+266   \{\par
+267     empresa();\par
+268   \}\par
+269   {\cf19 else} {\cf19 if}(x == 2)\par
+270   \{\par
+271     clt();\par
+272   \}\par
+273   {\cf19 else}\par
+274   \{\par
+275     publico();\par
+276   \}\par
+277 \}\par
+}
+}
+{\xe \v publico\:Todas as folhas de pagamento.c}
+{\xe \v Todas as folhas de pagamento.c\:publico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int publico (void )}}
+\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3                   \{\par
+4   printf({\cf22 "Insira o salario base: "});\par
+5    {\cf18 int} salario = 0;\par
+6   scanf({\cf22 "%d"}, &salario);\par
+7   {\cf19 if} (salario < 1412)\{\par
+8   printf({\cf22 "Valor inserido abaixo do salario minimo, nao e possivel prosseguir"});\par
+9   \}\par
+10   {\cf19 else}\{\par
+11   printf({\cf22 "Insira o n\'EDvel de p\'F3s-gradua\'E7\'E3o\\n"});\par
+12   printf({\cf22 "Para doutorado insira 1\\n"});\par
+13   printf({\cf22 "Para mestrado insira 2\\n"});\par
+14   printf({\cf22 "Para especializa\'E7\'E3o insira 3\\n"});\par
+15   {\cf18 int} nivel = 0;\par
+16   scanf({\cf22 "%d"}, &nivel);\par
+17   {\cf18 float} processo1 = 0;\par
+18 \par
+19   {\cf19 if} (nivel == 1)\par
+20   \{\par
+21     processo1 = salario * 1.60;\par
+22   \}\par
+23   {\cf19 else} {\cf19 if} (nivel == 2)\par
+24   \{\par
+25     processo1 = salario * 1.40;\par
+26   \}\par
+27   {\cf19 else} \{{\cf19 if} (nivel == 3)\par
+28   \{\par
+29     processo1 = salario * 1.20;\par
+30   \}\}\par
+31 printf({\cf22 "escreva seu tempo de servico em anos: "});\par
+32 {\cf18 int} tempo = 0;\par
+33 scanf({\cf22 "%i"}, &tempo);\par
+34     {\cf18 float} sobretempo = 0;\par
+35 {\cf19 if} (tempo < 5)\par
+36   \{\par
+37     sobretempo = (tempo/100.0) * salario;\par
+38   \}\par
+39   {\cf19 else}\par
+40   \{\par
+41     sobretempo = (5/100.0) * salario;\par
+42   \}\par
+43   {\cf18 float} salariobruto = processo1 + sobretempo + 440;\par
+44   printf({\cf22 " salario bruto: %f"}, salariobruto);\par
+45 \par
+46   {\cf18 float} impostoderenda = 0;\par
+47   {\cf19 if} (salario < 2259.2)\par
+48   \{\par
+49   impostoderenda = 0;\par
+50   \}\par
+51   {\cf19 else} {\cf19 if} (salario < 2826.65)\{\par
+52   impostoderenda = 7.5/100;\par
+53   \}\par
+54   {\cf19 else} {\cf19 if} (salario < 3751.06)\{\par
+55   impostoderenda = 15.0/100;\par
+56   \}\par
+57   {\cf19 else} {\cf19 if} (salario < 4664.68)\{\par
+58   impostoderenda = 22.5/100;\par
+59   \}\par
+60   {\cf19 else} \{\par
+61   impostoderenda = 27.5/100;\par
+62   \}\par
+63   {\cf18 float} iss = 5.0/100.0;\par
+64   {\cf18 float} descontosalarial = salario * (impostoderenda + iss);\par
+65 printf({\cf22 "\\nTotal de descontos: %f"}, descontosalarial);\par
+66     {\cf18 float} salarioliquido = salariobruto - descontosalarial;\par
+67     printf({\cf22 "\\nSalario liquido: %f"}, salarioliquido);\par
+68     {\cf19 return} 0;\par
+69   \}\par
+70   {\cf19 return} 0;\par
+71     \}\par
+}
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par 
+\pard\plain 
+{\tc \v Sum\'E1rio}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
